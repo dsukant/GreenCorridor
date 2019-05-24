@@ -4,8 +4,8 @@
 #include<RF24.h>
 #include<SoftwareSerial.h>
 #include<String.h>
-const char* ssid = "sukant";
-const char* password = "Sukant22";
+const char* ssid = "*******";
+const char* password = "********";
 WiFiServer server(80);
 int ambulance1 = 2;
 int val = 0;
@@ -13,7 +13,7 @@ int i;
 int ble;
 int indication = D3;
 RF24 radio(D4,D8);
-String amb = {"$0007016533"};
+String amb = {"***********"};
 unsigned char ADDRESS0[5] = {0xb1, 0x43, 0x88, 0x99, 0x45};
 SoftwareSerial ss(D1,D2);
 
